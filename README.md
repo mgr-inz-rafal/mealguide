@@ -1,2 +1,2 @@
 # mealguide
-International Meal Guide for Tizen absed Wearable devices
+International Meal Guide for Tizen based Wearable devices
