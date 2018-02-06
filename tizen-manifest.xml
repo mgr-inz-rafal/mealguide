@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.mealguide" version="1.0.0">
+    <profile name="wearable" />
+	<widget-application appid="org.example.mealguide" exec="mealguide" main="true" update-period="0" >
+    	<icon>mealguide.png</icon>
+    	<label>mealguide</label>
+		<support-size preview="screenshot.png">2x2</support-size>
+	</widget-application>
+</manifest>

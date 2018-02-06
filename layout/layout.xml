@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+	<mscreen>
+		<configuration device="CIRCLE_360x360" id="config1"
+			name="common" orientation="portrait" type="common" />
+	</mscreen>
+	<views startup="view1">
+		<view id="view1" indicator="true" type="view" page_location_x="0"
+			page_location_y="0">
+			<grid align_h="fill" vsize_w="1000" align_v="fill" visible="true"
+				weight_v="1" id="grid1" weight_h="1" vsize_h="1000">
+				<button align_v="fill" visible="true" weight_v="1" weight_h="1"
+					align_h="fill" disable="false" style="bottom" id="button_showhide"
+					text="Show raw" pack_x="317" pack_y="753" pack_w="364" pack_h="250">
+					<event function_name="view1_button_onclicked" signal="clicked" />
+				</button>
+				<image resizable_up="true" resizable_down="true" align_v="fill"
+					visible="true" weight_v="1" weight_h="1" align_h="fill"
+					aspect_fixed="false" no_scale="false" id="pic" fill_outside="false"
+					pack_x="219" pack_y="42" pack_w="553" pack_h="553" src="food_01_cooked.png"><event function_name="view1_pic_onclicked" signal="clicked"/></image>
+				<label align_v="fill" visible="true" weight_v="1" line_wrap="none"
+					weight_h="1" ellipsis="true" align_h="fill" wrap_width="0" id="label"
+					text="&lt;p align=center&gt;Hamburger&lt;/p&gt;" pack_x="65"
+					pack_y="598" pack_w="872" pack_h="142"></label>
+			</grid>
+		</view>
+	</views>
+</document>
