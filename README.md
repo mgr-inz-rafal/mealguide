@@ -12,8 +12,13 @@ Yours,
 mgr inż. Rafał
 
 ## Scope
-My ultimate goal is to create applilcation that will show you what is the food you're eating composed of. 
+My ultimate goal is to create applilcation that will show you what is the food you're eating composed of.<br><br>
 :-)
+<br><br>
+So far I support 7 (seven) different meals: Hamburger, Nuggets, Sushi, Schnitzel, Egg, Dogs, Kiwi.
+
+## Screenshot
+![alt text](https://github.com/mgr-inz-rafal/mealguide/raw/master/shared/res/screenshot.png)
 
 ## Video
 See it in action on Galaxy Gear S3 here:<br>https://www.youtube.com/watch?v=v9stH5hNetU
